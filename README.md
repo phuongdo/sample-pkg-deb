@@ -68,6 +68,13 @@ myScript usr/bin/
 ```
 This file indicates which file will be installed into which folder.
 
-Now build it with `ebuild --no-tgz-check --no-sign`
+Now build it with `debuild --no-tgz-check --no-sign`
 
 This will create a functional deb package. Lintian is going to throw a few warnings regarding the lack of an orig.tar.gz, but unless you plan on creating a proper upstream project that makes tarball releases you'll probably just want to ignore that for now.
+
+
+Install from package
+```
+$ sudo dpkg -i sample-pkg-deb_1.0_all.deb
+$ sudo apt-get install -f sample-pkg-deb_1.0_all.deb
+```
