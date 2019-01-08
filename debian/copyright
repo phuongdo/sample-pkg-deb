@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: myScript
-Upstream-Contact: Name, <email@address>
+Upstream-Contact: phuongdv <phuongdv@ubuntu.local> 
 
 Files: *
-Copyright: 2011, Name, <email@address>
+Copyright: 2011, phuongdv <phuongdv@ubuntu.local> 
 License: (GPL-2+ | LGPL-2 | GPL-3 | whatever)
  Full text of licence.
  .
