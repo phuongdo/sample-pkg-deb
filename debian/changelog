@@ -1,0 +1,5 @@
+sample-pkg-deb (1.0) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- phuongdv <phuongdv@ubuntu.local>  Tue, 08 Jan 2019 14:44:40 +0700
